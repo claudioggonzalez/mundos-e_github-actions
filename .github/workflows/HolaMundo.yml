@@ -1,0 +1,16 @@
+name: Hola Mundo Action
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  hello-world-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v3
+
+    - name: Imprimir Hola Mundo
+      run: echo "Hola Mundo"

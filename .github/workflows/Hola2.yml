@@ -1,7 +1,7 @@
 name: Hola Mundo Workflow2
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   hello-world-job:
